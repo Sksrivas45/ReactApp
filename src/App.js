@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Movies from './components/movies';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         </a>
       </header> */}
       <div>Hello Shashwat - sks@Github@123</div>
+      <div>Hello Rishabh</div>
+      <Movies movie="Avatar 2"/>
     </div>
   );
 }
